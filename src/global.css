@@ -1,0 +1,26 @@
+.box {
+    background-color: rgb(26, 109, 109);
+    color: rgb(178, 154, 260);
+
+    border-radius:60px; 
+    padding: 100px; 
+
+    font-family: Arial,sans-serif;
+    color: #eee6e6;
+    line-height: 1.4;
+    text-align: center;
+}
+.container {
+    display: flex;
+    gap: 50px;
+}
+.sectionTitle {
+    font-size: x-large;
+    text-align: center;
+    display: flex; 
+}
+.body {
+    background-image: url("UX.png")
+}
+
+    
