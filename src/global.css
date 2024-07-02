@@ -1,26 +1,22 @@
-.box {
-    background-color: rgb(26, 109, 109);
-    color: rgb(178, 154, 260);
-
-    border-radius:60px; 
-    padding: 100px; 
-
-    font-family: Arial,sans-serif;
-    color: #eee6e6;
-    line-height: 1.4;
-    text-align: center;
+/* global.css */
+body {
+    font-family: Arial, sans-serif; /* Example font family */
+    text-align: center; /* Center-align text content */
 }
+
 .container {
-    display: flex;
-    gap: 50px;
+    display: inline-block; /* Ensures the container wraps around its content */
+    text-align: left; /* Aligns content inside container to the left */
 }
-.sectionTitle {
-    font-size: x-large;
-    text-align: center;
-    display: flex; 
-}
-.body {
-    background-image: url("UX.png")
+
+.box {
+    display: inline-block;
+    width: 100px; /* Example width */
+    height: 100px; /* Example height */
+    border: 1px solid black; /* Example border */
+    margin: 10px; /* Example margin */
+    text-align: center; /* Centers text inside the box */
+    line-height: 100px; /* Vertically centers text */
 }
 
     
